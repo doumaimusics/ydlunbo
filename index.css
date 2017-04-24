@@ -1,0 +1,84 @@
+.banner {
+  width: 100%;
+  height: 4rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden; }
+  .banner .mui-slider-group.mui-slider-loop {
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0); }
+  .banner .mui-slider-group {
+    font-size: 0;
+    position: relative;
+    -webkit-transition: all 0s linear;
+    transition: all 0s linear;
+    white-space: nowrap; }
+  .banner .mui-slider-indicator {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center; }
+  .banner .mui-text-center {
+    text-align: center !important; }
+  .banner .mui-slider-item {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    white-space: normal; }
+    .banner .mui-slider-item .u-box {
+      width: 100%;
+      height: 100%;
+      background: blue;
+      position: relative; }
+      .banner .mui-slider-item .u-box .u-banner-logo {
+        width: 0.74rem;
+        height: 1.05rem;
+        background: url("../img/hotdeal.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0.2rem;
+        left: 0.35rem; }
+      .banner .mui-slider-item .u-box .u-banner1 {
+        width: 2.94rem;
+        height: 1.88rem;
+        position: absolute;
+        left: 0.35rem;
+        top: 1.34rem; }
+        .banner .mui-slider-item .u-box .u-banner1 img {
+          width: 100%;
+          height: 100%; }
+      .banner .mui-slider-item .u-box .u-banner-text {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0.5rem 0 0;
+        box-sizing: border-box; }
+        .banner .mui-slider-item .u-box .u-banner-text h3 {
+          font-size: 0.44rem;
+          color: #ff6600;
+          margin-bottom: 0.1rem; }
+          .banner .mui-slider-item .u-box .u-banner-text h3 span {
+            font-size: 0.3rem;
+            color: #666; }
+        .banner .mui-slider-item .u-box .u-banner-text p {
+          font-size: 0.24rem;
+          color: #999;
+          line-height: 0.32rem; }
+  .banner .mui-slider-indicator {
+    font-size: 0; }
+    .banner .mui-slider-indicator .mui-indicator.mui-active {
+      background: #12C186; }
+    .banner .mui-slider-indicator .mui-indicator {
+      display: inline-block;
+      margin-right: 0.1rem;
+      width: 0.16rem;
+      height: 0.16rem;
+      border-radius: 50%;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      background-color: #CCCCCC;
+      box-shadow: none; }

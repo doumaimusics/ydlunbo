@@ -1,0 +1,109 @@
+//banner
+//.container 
+.banner {
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    .mui-slider-group.mui-slider-loop{
+            -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    }
+    .mui-slider-group{
+            font-size: 0;
+    position: relative;
+    -webkit-transition: all 0s linear;
+    transition: all 0s linear;
+    white-space: nowrap;
+    }
+    //指示点
+    .mui-slider-indicator {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+   
+}
+.mui-text-center {
+    text-align: center!important;
+}
+//轮播内容
+            .mui-slider-item{
+        
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    white-space: normal;
+          .u-box {
+        width: 100%;
+        height: 100%;
+        background: blue;
+        position: relative;
+        .u-banner-logo {
+            width: 0.74rem;
+            height: 1.05rem;
+            background: url("../img/hotdeal.jpg") no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0.2rem;
+            left: 0.35rem;
+        }
+        .u-banner1 {
+            width: 2.94rem;
+            height: 1.88rem;
+            position: absolute;
+            left: 0.35rem;
+            top: 1.34rem;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .u-banner-text {
+            width: 50%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 0.5rem 0 0;
+            box-sizing: border-box;
+            h3 {
+                font-size: 0.44rem;
+                color: #ff6600;
+                margin-bottom: 0.1rem;
+                span {
+                    font-size: 0.3rem;
+                    color: #666;
+                }
+            }
+            p {
+                font-size: 0.24rem;
+                color: #999;
+                line-height: 0.32rem;
+            }
+        }
+    }  
+    }
+        
+
+
+
+    .mui-slider-indicator {
+        font-size: 0;
+        .mui-indicator.mui-active{background: #12C186;}
+        .mui-indicator {
+          display: inline-block;
+             margin-right: 0.1rem;
+                width: 0.16rem;
+                height: 0.16rem;
+                border-radius: 50%;
+                -webkit-box-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+                background-color: #CCCCCC;
+                box-shadow: none;
+        }
+    }
+}

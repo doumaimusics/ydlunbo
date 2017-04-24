@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="public.css" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+								<!--lunbo-->
+						<div class="mui-slider banner">
+							<div class="mui-slider-group mui-slider-loop">
+								<!--支持循环，需要重复图片节点-->								
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<a href="http://www.baidu.com">
+										<div class="u-box">
+											<div class="u-banner-logo"></div>
+											<div class="u-banner1">
+												<img src="img/banner3.jpg" />
+											</div>
+											<div class="u-banner-text">
+												<h3>Basic Specs<br><span>1-10 Layers</span></h3>
+												<p>
+													Turn time: As fast as 24 hours<br>Qty req.: 5 - 10000+<br>Materials: FR4,Aluminum<br>Finished copper: 1-3 oz<br>
+												</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="mui-slider-item mui-active" id="1">
+									<a href="http://www.baidu.com">
+										<div class="u-box">
+											<div class="u-banner-logo"></div>
+											<div class="u-banner1">
+												<img src="img/banner1.jpg" />
+											</div>
+											<div class="u-banner-text">
+												<h3>Basic Specs<br><span>1-10 Layers</span></h3>
+												<p>
+													Turn time: As fast as 24 hours<br>Qty req.: 5 - 10000+<br>Materials: FR4,Aluminum<br>Finished copper: 1-3 oz<br>
+												</p>
+											</div>
+										</div>
+										</a>
+								</div>
+								<div class="mui-slider-item" id="2">
+									<a href="http://www.baidu.com">
+										<div class="u-box">
+											<div class="u-banner-logo"></div>
+										<div class="u-banner1">
+											<img src="img/banner2.jpg" />
+										</div>
+										<div class="u-banner-text">
+											<h3>Full Feature<br><span>1 - 20 Layers</span></h3>
+											<p>
+												Turn time: Same Day - 5 weeks<br>Qty req.: 1 - 10000+<br>Board type: High-Temp.FR4, Flex,Flex-rigid, HDI, Rogers, etc.<br>
+											</p>
+										</div>
+										</div>
+									</a>
+								</div>
+							
+								<div class="mui-slider-item" id="3">
+									<a href="http://www.baidu.com">
+										<div class="u-box">
+											<div class="u-banner-logo"></div>
+										<div class="u-banner1">
+											<img src="img/banner3.jpg" />
+										</div>
+										<div class="u-banner-text">
+											<h3>PCB Assembly<br><span>Turnkey/Kitted/Hybrid</span></h3>
+											<p>
+												Turn time: 2 days - 3 weeks<br>Qty req.: 1 - 10000+<br>Capability: SMT & Supply Parts<br>Soldering: Machine+Hand<br>
+											</p>
+										</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<a href="#">
+										<div class="u-box">
+											<div class="u-banner-logo"></div>
+											<div class="u-banner1">
+												<img src="img/banner1.jpg" />
+											</div>
+											<div class="u-banner-text">
+												<h3>Basic Specs<br><span>1-10 Layers</span></h3>
+												<p>
+													Turn time: As fast as 24 hours<br>Qty req.: 5 - 10000+<br>Materials: FR4,Aluminum<br>Finished copper: 1-3 oz<br>
+												</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<!--指示点-->
+							<div class="mui-slider-indicator mui-text-center">
+								<div class="mui-indicator mui-active"></div>
+								<div class="mui-indicator"></div>
+								<div class="mui-indicator"></div>
+							</div>
+						</div>
+
+	</body>
+</html>
+<script src="mui.min.js"></script>
+<script>
+		//banner轮播
+				var gallery = mui('.mui-slider');
+				gallery.slider({
+					interval: 5000 //自动轮播周期，若为0则不自动播放，默认为0；
+				});
+</script>
